@@ -5,8 +5,11 @@ Genetists love to look at genes, the hereditary units found within DNA that are 
 # What you need for this Shiny App:
 
 -A name for your project
+
 -One contiguous gene pair from any genome (i.e. Mouse, human, yeast, fruit fly)
--The chromosomal location of the genes from part 2
+
+-The chromosomal location of these two genes
+
 -Knowledge of which strand the gene is expressed from (i.e. Forward or reverse)
 
 # Sample data:
@@ -20,15 +23,15 @@ MCM2 is a 2607bp gene expressed from the reverse strand spanning the following c
 
 1) Name project: Example
 2) In the left column, fill in the following information:
-  -Gene 1: NCL1
-  -Start: 172534
-  -End: 174588
-  -Forward (1) or Reverse (-1): 1
-3) 2) In the right column, fill in the following information:
-  -Gene 1: MCM2
-  -Start: 174920
-  -End: 177526
-  -Forward (1) or Reverse (-1): -1
+      1) Gene 1: NCL1
+      2) Start: 172534
+      3) End: 174588
+      4) Forward (1) or Reverse (-1): 1
+3) In the right column, fill in the following information:
+      1) Gene 2: MCM2
+      2) Start: 174920
+      3) End: 177526
+      4) Forward (1) or Reverse (-1): -1
 4) Click submit
 5) Look at reactive table and reactive gene locus plot
 6) Bonus: toggle between 1 and -1 for either of the gene pairs to see the arrow direction on the plot change. 
