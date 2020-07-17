@@ -47,13 +47,17 @@ shinyUI(
             
         )
         ,
-        mainPanel(actionButton("submit","Submit"), uiOutput('table'),
+        mainPanel(actionButton("submit","Submit"),     helpText(   a("Click Here for Help Documentation",     href="https://github.com/mgordo34/Gene_Locus_Map/blob/gh-pages/README.md"),
+uiOutput('table'),
             plotOutput('myplot')
       
     
-                )
+                
          
-        )
+        ) 
     
+
 )
 
+)
+)

@@ -43,7 +43,7 @@ shinyServer(
             
             ggplot(aes(xmin = Start, xmax = End, y = molecule, fill = Gene, forward=strand, label=Gene)) +
             geom_gene_arrow() + 
-            geom_gene_label() +
+            geom_gene_label() + 
             facet_wrap(~ molecule, scales = "free", ncol = 1) +
             scale_fill_brewer(palette = "Set3") +
             theme_genes() + theme(legend.position="top", text = element_text(size=20), legend.title = element_blank(), axis.title = element_blank())
