@@ -1,0 +1,3 @@
+﻿molecule,Gene ,Start,End,strand
+Genome 1,CTF13,1,100,1
+Genome 1,SNO1,120,190,-1
